@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Bravo X2 Mobile</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" href="icon-500.png">
+</head>
+
+<body>
+    <h1>Bravo X2 Mobile</h1>
+       <script>
+
+
+        //Kör serviceworker
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('sw.js')
+                .then(() => console.log('Service worker registered'))
+                .catch((error) => console.log('Service worker registration failed:', error));
+        }
+
+      
+
+    </script>
+
+    <div id="install-banner">
+        <img src="icon-500.png"/>
+        <p>Installera Bravo X2 på mobilen genom att öppna menyn och välja: </p>
+        <p>"Installera Appen"</p>
+     
+    </div>
+
+
+</body>
+
+</html>

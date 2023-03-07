@@ -1,0 +1,14 @@
+{
+    "name": "Bravo X2 Mobile",
+    "short_name": "BX2 Mobile",
+    "start_url": "/",
+    "icons": [
+      {
+        "src": "icon-500.png",
+        "sizes": "150x150",
+        "type": "image/png"
+      }
+    ],
+    "display": "standalone"
+  }
+  
